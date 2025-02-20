@@ -2,7 +2,7 @@
 
 This is the frontend implementation for the TAHO AI Chatbot, built using React, TailwindCSS, and WebSockets.
 
-## Note :
+### Note :
 
 Ensure you have the following installed:
 
@@ -48,7 +48,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-
-# taho-chatbot-frontend
