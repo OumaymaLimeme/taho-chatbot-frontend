@@ -1,52 +1,51 @@
-# TAHO AI Chatbot Frontend Setup Guide
+# 🌐 TAHO AI Chatbot – Frontend  
 
-This is the frontend implementation for the TAHO AI Chatbot, built using React, TailwindCSS, and WebSockets.
+This repository contains the **frontend implementation** of the TAHO AI Chatbot, a multilingual AI-powered chatbot that helps users check grammar in **English, French, and German**.  
+The frontend is built using **React**, **Next.js**, and **TailwindCSS**, and it connects to a backend via **WebSockets** for real-time communication.
 
-This is a short demo for the chatBot : https://drive.google.com/file/d/1bWydmMDwCvFNxKxfcntU9ZGF_kh6C78R/view
+🎥 **Demo:** [Watch here](https://drive.google.com/file/d/1bWydmMDwCvFNxKxfcntU9ZGF_kh6C78R/view)  
 
-### Note :
+---
 
-Ensure you have the following installed:
+## 💡 Project Overview
+The TAHO AI Chatbot frontend provides a clean and responsive interface where users can:
+- Send messages and receive AI-generated responses in real-time.
+- Check grammar and language usage across multiple languages.
+- Interact with a scalable backend that integrates AI services like **GROQ API** and **LLMChain**.
 
-Node.js (v22.14)
+This project demonstrates a full-stack approach to AI-powered web applications, focusing on **usability, performance, and modular architecture**.
 
-npm or yarn
+---
 
+## ✨ Features
+- Real-time chat powered by **WebSockets**  
+- Multilingual grammar checking (English, French, German)  
+- Modern UI built with **React** and **TailwindCSS**  
+- Configurable backend WebSocket URL for flexibility  
+- Optimized production build ready for deployment  
 
+---
 
-## 1.Clone the Repository
+## 🛠️ Tech Stack
+- **Frontend:** React, Next.js, TailwindCSS  
+- **Backend Connection:** WebSockets  
+- **Database:** PostgreSQL (via backend)  
+- **AI Integration:** GROQ API, LLMChain  
+- **Programming Languages:** JavaScript, TypeScript (if used)  
 
-## 2.Install Dependencies
+---
 
-### `npm install`
+## 📋 Requirements
+Before running the project, make sure you have installed:
+- **Node.js** (v22.14 or higher)  
+- **npm** or **yarn**  
 
-## 3.Set Up Environment Variables
+---
 
-Check in Chat.js the WebSocket backend URL and put yours when we Establish WebSocket connection  line 13
+## ⚙️ Setup Instructions  
 
-## 4. Start the Development Server
+### 1. Clone the repository
+```bash
+git clone https://github.com/OumaymaLimeme/taho-chatbot-frontend.git
+cd taho-chatbot-frontend
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
