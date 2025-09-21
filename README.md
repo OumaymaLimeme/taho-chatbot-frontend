@@ -1,4 +1,4 @@
-# 🌐 TAHO AI Chatbot – Frontend  
+# 🌐 Chatbot – Frontend  
 
 This repository contains the **frontend implementation** of the TAHO AI Chatbot, a multilingual AI-powered chatbot that helps users check grammar in **English, French, and German**.  
 The frontend is built using **React**, **Next.js**, and **TailwindCSS**, and it connects to a backend via **WebSockets** for real-time communication.
@@ -8,7 +8,7 @@ The frontend is built using **React**, **Next.js**, and **TailwindCSS**, and it 
 ---
 
 ## 💡 Project Overview
-The TAHO AI Chatbot frontend provides a clean and responsive interface where users can:
+The Chatbot frontend provides a clean and responsive interface where users can:
 - Send messages and receive AI-generated responses in real-time.
 - Check grammar and language usage across multiple languages.
 - Interact with a scalable backend that integrates AI services like **GROQ API** and **LLMChain**.
